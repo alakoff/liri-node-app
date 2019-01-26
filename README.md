@@ -35,7 +35,7 @@ This will search the Bands in Town Artist Events API for an artist and render th
 
 Example command and results:
 
-![LIRI concert-this example](.images/concert-this.PNG)
+![LIRI concert-this example](./images/concert-this.PNG)
 
 
 
