@@ -23,9 +23,9 @@ Valid LIRI commands are one of the following commands:
 
 ## What Each Command Does
 
-### concert-this
+### 1. concert-this
 
-1. node liri.js concert-this [artist or band]
+    * node liri.js concert-this [artist or band]
 
 This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
@@ -39,9 +39,9 @@ Example command and results:
 ![LIRI concert-this example](./images/concert-this.PNG)
 
 
-### spotify-this-song
+### 2. spotify-this-song
 
-1. node liri.js spotify-this-song [song name]
+    * node liri.js spotify-this-song [song name]
 
 This will search the Spotify API for the song and return the following information about the song to the terminal:
 
@@ -61,9 +61,9 @@ Example command and results using defualt song
 ![LIRI spotify-this-song command example no song](./images/spotifydefault.PNG)
 
 
-### movie-this
+### 3. movie-this
 
-3. node liri.js movie-this [movie-name]
+    * node liri.js movie-this [movie-name]
 
 This will search the OMDB API for the movie and return the following information about the movie to the terminal:
 
@@ -87,19 +87,21 @@ Example command and results using default movie
 ![LIRI movie-this command example no movie](./images/moviedefault.PNG)
 
 
+### 4. do-what-it-says
 
+   * node liri.js do-what-it-says
 
+LIRI will take the text inside of the random.txt file and then use it to call the specified command inside the file.
 
+  * It will run spotify-this-song for "I Want it That Way" by default.
 
+Example command and results
 
+![LIRI do-what-it-says example and results](./images/dowhat.PNG)
 
+Example text in random.txt file
 
-4.  `node liri.js do-what-it-says`
-
-LIRI will take the text inside of random.txt and then use it to call the specified command inside the random.txt file.
-
-  * It should run `spotify-this-song` for "I Want it That Way" by default.
-
+![random.txt file contents](./images/randomtxt.PNG)
 
 
 
