@@ -54,12 +54,14 @@ If no song is provided then LIRI will search Spotify for "The Sign" by Ace of Ba
 
 Example command and results specifying a song
 
-![LIRI spotify-this-command example](./images/spotify.PNG)
+![LIRI spotify-this-song command example](./images/spotify.PNG)
 
 Example command and results using defualt song
 
-![LIRI spotify-this-command example](./images/spotifydefault.PNG)
+![LIRI spotify-this-song command example no song](./images/spotifydefault.PNG)
 
+
+### movie-this
 
 3. node liri.js movie-this [movie-name]
 
@@ -74,7 +76,22 @@ This will search the OMDB API for the movie and return the following information
     * Plot of the movie
     * Actors in the movie
 
-  If the user doesn't type a movie in, LIRI will search for the movie 'Mr. Nobody.'
+If the user doesn't specify a movie, LIRI will search for the movie 'Mr. Nobody.' by default.
+
+Example command and results specifying a movie
+
+![LIRI movie-this command example](./images/movie.PNG)
+
+Example command and results using default movie
+
+![LIRI movie-this command example no movie](./images/moviedefault.PNG)
+
+
+
+
+
+
+
 
 
 4.  `node liri.js do-what-it-says`
