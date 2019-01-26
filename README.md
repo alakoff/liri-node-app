@@ -29,6 +29,7 @@ Valid LIRI commands are one of the following commands:
 
 This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
+    * Artist/Band
     * Name of the venue
     * Venue location
     * Date of the Event 
@@ -36,8 +37,6 @@ This will search the Bands in Town Artist Events API for an artist and render th
 Example command and results:
 
 ![LIRI concert-this example](./images/concert-this.PNG)
-
-
 
 
 ### spotify-this-song
@@ -52,6 +51,15 @@ This will search the Spotify API for the song and return the following informati
      * The album that the song is from
 
 If no song is provided then LIRI will search Spotify for "The Sign" by Ace of Base.
+
+Example command and results specifying a song
+
+![LIRI spotify-this-command example](./images/spotify.PNG)
+
+Example command and results using defualt song
+
+![LIRI spotify-this-command example](./images/spotifydefault.PNG)
+
 
 3. node liri.js movie-this [movie-name]
 
