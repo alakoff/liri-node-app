@@ -101,7 +101,7 @@ function movie(nodeArgs) {
 
         for (var i = 3; i < nodeArgs.length; i++) {
             if (i >=3 && i < nodeArgs.length-1) {
-                search = search + nodeArgs[i] + "+";
+                search = search + nodeArgs[i] + " ";
             }
             else {
                 search = search + nodeArgs[i];   
@@ -150,7 +150,7 @@ function concert(nodeArgs) {
         for (var i = 3; i < nodeArgs.length; i++) {
 
             if (i >=3 && i < nodeArgs.length-1) {
-                search = search +  nodeArgs[i] + '+';
+                search = search +  nodeArgs[i] + ' ';
             }
             else {
                 search = search + nodeArgs[i];
