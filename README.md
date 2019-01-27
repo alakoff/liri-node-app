@@ -8,7 +8,12 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
    
 ## LIRI User Guide
 
-To use LIRI you must open and use a terminal window.
+To use LIRI you must complete the following setup steps:
+
+    * Clone or download the Github repository https://github.com/alakoff/liri-node-app
+    * Open and use a terminal window
+    * Ensure that you are currently located in the directory "liri-node-app"
+    * Issue LIRI a command
 
 Issue LIRI a command, from a terminal prompt, following this format:
 
@@ -102,10 +107,6 @@ Example command and results
 Example text in random.txt file
 
 ![random.txt file contents](./images/randomtxt.PNG)
-
-
-
-
 
 
 
