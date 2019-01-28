@@ -11,9 +11,16 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 To use LIRI you must complete the following setup steps:
 
     * Clone or download the Github repository https://github.com/alakoff/liri-node-app
+    * Create your own client ID and client Secret for the Spotify API
     * Open and use a terminal window
     * Ensure that you are currently located in the directory "liri-node-app"
-    * Issue LIRI a command
+    * Create a ".env" file and place your keys inside of that file, following this format:
+
+        SPOTIFY_ID=your-spotify-id
+        SPOTIFY_SECRET=your-spotify-secret
+
+    * Issue LIRI a valid command from the command prompt on your local machine
+  
 
 Issue LIRI a command, from a terminal prompt, following this format:
 
